@@ -1,0 +1,16 @@
+<Device>
+	<Name>XY</Name>
+	<Author>ylmrx</Author>
+	<Description>XY binding for a trivial touchosc mapping</Description>
+	<Parameters>
+		<Row>
+			<Group name="XYPad" >
+				<Param name="XYPad_X" type="xypad" size="4" invert_x="false" invert_y="false" swap_axes="false" skip_echo="false"  minimum="0" maximum="127">
+					<SubParam value="CC#14" field="y" />
+					<SubParam value="CC#13" field="x" />
+				</Param>
+			</Group>
+		</Row>
+	</Parameters>
+</Device>
+
